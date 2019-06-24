@@ -39,7 +39,7 @@
           - '{{path.stdout}}:{{path.stdout}}'
           - '/mnt/unionfs:/unionfs:rw'
           - '/mnt:/mnt:rw'
-          - '/etc/localtime:/etc/localtime:ro'
+          #- '/etc/localtime:/etc/localtime:ro'
           - '/mnt/unionfs/libary:/library:rw'
           - '/mnt/unionfs:/unionfs:rw'
 
