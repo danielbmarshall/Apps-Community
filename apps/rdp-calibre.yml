@@ -48,9 +48,12 @@
         pg_env:
           PUID: '1000'
           PGID: '1000'
+          USER_ID: '1000'
+          GROUP_ID: '1000'
           TZ: 'America/Chicago'
           WIDTH: '1280'
           HEIGHT: '720'
+          LIBRARYINTERNALPATH: '/library'
 
     # MAIN DEPLOYMENT #############################################################
     - name: 'Deploying {{pgrole}}'
