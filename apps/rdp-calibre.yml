@@ -40,7 +40,7 @@
           - '/mnt/unionfs:/unionfs:rw'
           - '/mnt:/mnt:rw'
           - '/etc/localtime:/etc/localtime:ro'
-          - '/mnt/unionfs/libary:/library:rw'
+          - '/mnt/unionfs/library:/library:rw'
           - '/mnt/unionfs:/unionfs:rw'
 
     - name: 'Setting PG ENV'
